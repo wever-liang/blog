@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6", // 目标语言的版本
+      "module": "commonjs", // 默认值 target === "es3" or "es5" ? "commonjs" : "es6"
+      "jsx": "react", //在 .tsx 中支持 JSX ：React 或 Preserve
+      "esModuleInterop": true //用于在import时将cjs模块转为esm模块 https://zhuanlan.zhihu.com/p/148081795
+    },
+    "exclude": [
+      "node_modules",
+      "public",
+    ],
+    "noEmits": true
+  }
